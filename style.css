@@ -1,6 +1,10 @@
 *{
     padding: 0;
     margin: 0;
+   
+}
+body{
+ background-color: #9999cd;
 }
 @media (max-width: 768px) {
   nav ul {
@@ -22,13 +26,10 @@
 nav ul{
     height: 10px;
     display: flex;
-    /* justify-content: center; */
     list-style: none;
     gap: 10px;
     padding-top: 20px;
     text-decoration: none;
-    /* align-items: center; */
-    /* background-color: aqua; */
 }
 nav ul li{
     padding-inline: 20px;
@@ -45,9 +46,9 @@ img{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-     text-align: center;
-     gap: 30px;
-  padding: 20px;
+    text-align: center;
+    gap: 30px;
+    padding: 20px;
 }
 button {
   margin-top: 20px;
@@ -59,7 +60,7 @@ button {
 }
 
 footer{
-background-color: #f1f1f1;
+background-color: #8d95b3;
 text-align: center;
 height: 18vh;
 padding: 10px;
